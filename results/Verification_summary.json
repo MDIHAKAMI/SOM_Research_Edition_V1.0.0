@@ -1,0 +1,190 @@
+{
+  "run_id": "SOM-RESEARCH-1.0-VERIFICATION",
+  "versions": {
+    "package": "1.0.0",
+    "release": "som-4.3.0",
+    "pk": "som-pk-2.2.0",
+    "ce": "som-ce-2.2.0",
+    "hn": "som-hn-3.0.0",
+    "publishedPD": "som-published-pd-1.0.0",
+    "node": "v24.22.1",
+    "repairRevision": "submission-metadata-repair-20261019"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "scenario_counts": {
+    "histories": 9,
+    "snapshots": 1484,
+    "forecasts": 33,
+    "worked": 3
+  },
+  "groups": {
+    "Dose forecast": {
+      "checks": 8184,
+      "numeric_checks": 6072,
+      "categorical_checks": 2112,
+      "passed": 8184,
+      "failed": 0,
+      "maximum_absolute_error": 2.6545876607997343e-11
+    },
+    "Forecast isolation": {
+      "checks": 33,
+      "numeric_checks": 0,
+      "categorical_checks": 33,
+      "passed": 33,
+      "failed": 0,
+      "maximum_absolute_error": null
+    },
+    "H/N availability": {
+      "checks": 8904,
+      "numeric_checks": 0,
+      "categorical_checks": 8904,
+      "passed": 8904,
+      "failed": 0,
+      "maximum_absolute_error": null
+    },
+    "H/N contributions": {
+      "checks": 115752,
+      "numeric_checks": 115722,
+      "categorical_checks": 30,
+      "passed": 115752,
+      "failed": 0,
+      "maximum_absolute_error": 8.881784197001252e-16
+    },
+    "H/N known subtotal": {
+      "checks": 8904,
+      "numeric_checks": 8904,
+      "categorical_checks": 0,
+      "passed": 8904,
+      "failed": 0,
+      "maximum_absolute_error": 5.329070518200751e-15
+    },
+    "H/N monotonicity": {
+      "checks": 7800,
+      "numeric_checks": 0,
+      "categorical_checks": 7800,
+      "passed": 7800,
+      "failed": 0,
+      "maximum_absolute_error": null
+    },
+    "H/N totals": {
+      "checks": 8904,
+      "numeric_checks": 8883,
+      "categorical_checks": 21,
+      "passed": 8904,
+      "failed": 0,
+      "maximum_absolute_error": 5.329070518200751e-15
+    },
+    "Mass conservation": {
+      "checks": 23958,
+      "numeric_checks": 23958,
+      "categorical_checks": 0,
+      "passed": 23958,
+      "failed": 0,
+      "maximum_absolute_error": 3.3185642678290606e-08
+    },
+    "Opioid split invariance": {
+      "checks": 63,
+      "numeric_checks": 63,
+      "categorical_checks": 0,
+      "passed": 63,
+      "failed": 0,
+      "maximum_absolute_error": 3.3306690738754696e-16
+    },
+    "PK parameters": {
+      "checks": 693,
+      "numeric_checks": 639,
+      "categorical_checks": 54,
+      "passed": 693,
+      "failed": 0,
+      "maximum_absolute_error": 0.0
+    },
+    "PK trajectory": {
+      "checks": 67518,
+      "numeric_checks": 50094,
+      "categorical_checks": 17424,
+      "passed": 67518,
+      "failed": 0,
+      "maximum_absolute_error": 7.169376203819411e-11
+    },
+    "Published PD": {
+      "checks": 2205,
+      "numeric_checks": 2205,
+      "categorical_checks": 0,
+      "passed": 2205,
+      "failed": 0,
+      "maximum_absolute_error": 2.220446049250313e-16
+    },
+    "Record correction": {
+      "checks": 15,
+      "numeric_checks": 0,
+      "categorical_checks": 15,
+      "passed": 15,
+      "failed": 0,
+      "maximum_absolute_error": null
+    },
+    "Research H/N snapshot": {
+      "checks": 6,
+      "numeric_checks": 6,
+      "categorical_checks": 0,
+      "passed": 6,
+      "failed": 0,
+      "maximum_absolute_error": 1.687538997430238e-14
+    },
+    "Research concentrations": {
+      "checks": 186,
+      "numeric_checks": 138,
+      "categorical_checks": 48,
+      "passed": 186,
+      "failed": 0,
+      "maximum_absolute_error": 5.087485988042317e-12
+    },
+    "Research snapshot serialization": {
+      "checks": 6,
+      "numeric_checks": 0,
+      "categorical_checks": 6,
+      "passed": 6,
+      "failed": 0,
+      "maximum_absolute_error": null
+    },
+    "Rocuronium PD": {
+      "checks": 9696,
+      "numeric_checks": 9696,
+      "categorical_checks": 0,
+      "passed": 9696,
+      "failed": 0,
+      "maximum_absolute_error": 2.220446049250313e-16
+    },
+    "State corrections": {
+      "checks": 2178,
+      "numeric_checks": 2178,
+      "categorical_checks": 0,
+      "passed": 2178,
+      "failed": 0,
+      "maximum_absolute_error": 0
+    },
+    "Worked-case H/N": {
+      "checks": 1086,
+      "numeric_checks": 1086,
+      "categorical_checks": 0,
+      "passed": 1086,
+      "failed": 0,
+      "maximum_absolute_error": 3.552713678800501e-15
+    },
+    "XLSX roundtrip": {
+      "checks": 218690,
+      "numeric_checks": 77195,
+      "categorical_checks": 141495,
+      "passed": 218690,
+      "failed": 0,
+      "maximum_absolute_error": 0
+    }
+  },
+  "total_checks": 484781,
+  "failed": 0,
+  "criteria": "absolute difference <= 1e-9 + 1e-10 * abs(reference); H/N <= 1e-12 + 1e-12 * abs(reference); published probabilities <= 1e-12; exact null/category match",
+  "scope": "Deterministic numerical and in-memory/export verification. No patient observations, clinical predictive validation, learning outcomes, hosted API/database or concurrent-user test."
+}

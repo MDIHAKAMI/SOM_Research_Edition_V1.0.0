@@ -1,0 +1,21 @@
+group,checks,numeric_checks,categorical_checks,passed,failed,maximum_absolute_error
+Dose forecast,8184,6072,2112,8184,0,2.6545876607997343e-11
+Forecast isolation,33,0,33,33,0,
+H/N availability,8904,0,8904,8904,0,
+H/N contributions,115752,115722,30,115752,0,8.881784197001252e-16
+H/N known subtotal,8904,8904,0,8904,0,5.329070518200751e-15
+H/N monotonicity,7800,0,7800,7800,0,
+H/N totals,8904,8883,21,8904,0,5.329070518200751e-15
+Mass conservation,23958,23958,0,23958,0,3.3185642678290606e-08
+Opioid split invariance,63,63,0,63,0,3.3306690738754696e-16
+PK parameters,693,639,54,693,0,0.0
+PK trajectory,67518,50094,17424,67518,0,7.169376203819411e-11
+Published PD,2205,2205,0,2205,0,2.220446049250313e-16
+Record correction,15,0,15,15,0,
+Research H/N snapshot,6,6,0,6,0,1.687538997430238e-14
+Research concentrations,186,138,48,186,0,5.087485988042317e-12
+Research snapshot serialization,6,0,6,6,0,
+Rocuronium PD,9696,9696,0,9696,0,2.220446049250313e-16
+State corrections,2178,2178,0,2178,0,0
+Worked-case H/N,1086,1086,0,1086,0,3.552713678800501e-15
+XLSX roundtrip,218690,77195,141495,218690,0,0

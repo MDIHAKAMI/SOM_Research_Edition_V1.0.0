@@ -1,0 +1,13 @@
+{
+  "description": "Equal constructed H does not establish clinical equivalence",
+  "A": {
+    "propofol_Cp_ug_mL": 1.85,
+    "H": 1.0
+  },
+  "B": {
+    "propofol_Cp_ug_mL": 1.4707500000000002,
+    "fentanyl_Cp_ng_mL": 3,
+    "H": 1.0
+  },
+  "not_a_dosing_target": true
+}

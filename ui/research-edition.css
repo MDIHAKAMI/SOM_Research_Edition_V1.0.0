@@ -1,0 +1,28 @@
+/* Copyright (c) 2026 Mohammed Hakami. SPDX-License-Identifier: MIT */
+/* Copyright (c) 2026 Mohammed Hakami. See LICENSE. */
+.as-work { background: #f7f8fa; }
+.as-work h1 { letter-spacing: -.6px; font-size: clamp(25px, 3.4vw, 38px); }
+.as-home { padding-top: 36px; }
+.as-start-options { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 28px; }
+.as-start-options > button { padding: 24px; border-radius: 8px; box-shadow: none; }
+.as-start-options > button h2 { font-size: 21px; }
+.as-start-options > button p { font-size: 15px; margin: 0; }
+.som-local-backup { border-top: 1px solid #dce4ed; margin-top: 26px; padding-top: 24px; }
+.som-local-backup h2 { font-size: 20px; }
+.som-local-backup p { font-size: 14px; max-width: 75ch; }
+.som-local-backup .as-row { margin-bottom: 12px; }
+.som-file-input { position: absolute; width: 1px; height: 1px; opacity: 0; overflow: hidden; }
+.som-wordmark { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; }
+.som-wordmark b { font-size: 19px; }
+.som-wordmark em { font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: 0; }
+.as-header { min-height: 82px; height: auto; padding-top: 12px; padding-bottom: 12px; flex-wrap: wrap; }
+.as-header .as-row { flex-wrap: wrap; }
+.as-work .som-footer { border-top: 1px solid #dce4ed; padding-top: 20px; margin-top: 28px; font-size: 13px; }
+@media (max-width: 760px) {
+  .as-start-options { grid-template-columns: 1fr; }
+  .as-header { padding-left: 16px; padding-right: 16px; gap: 10px; }
+  .as-header .as-clock { display: none; }
+  .as-header .as-row { gap: 7px; }
+  .as-header button { padding: 8px 10px; }
+  .as-home { padding: 26px 18px; }
+}

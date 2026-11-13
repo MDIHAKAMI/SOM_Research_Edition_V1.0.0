@@ -1,0 +1,245 @@
+{
+  "files": [
+    {
+      "path": "All_comparisons.csv.gz",
+      "bytes": 3906844,
+      "sha256": "3890181e4a0c8fb0f8ae9420825ba5164ae4a5e34a980efe39fc5c8b81997548"
+    },
+    {
+      "path": "CASE-1-research-sheets.json",
+      "bytes": 1362887,
+      "sha256": "594d6cad2c280e5b15a6a18788e2fc01b6aaba669c1fbfc66c4950fc6878a423"
+    },
+    {
+      "path": "CASE-1-research.xlsx",
+      "bytes": 4622722,
+      "sha256": "fcab7c3ce12200e149628f5ada0cb4826f3ba3dab20037275f6bc5e4f0096fba"
+    },
+    {
+      "path": "CASE-2-research-sheets.json",
+      "bytes": 1330342,
+      "sha256": "e725ec0088cb0d65abb84c99138b2e7567520864852fc2937a1007afbd95bc7e"
+    },
+    {
+      "path": "CASE-2-research.xlsx",
+      "bytes": 4537284,
+      "sha256": "a59631b110864b716314ad95c72c8392636f0bcabca82677c22ba6f7f0c6284a"
+    },
+    {
+      "path": "CASE-3-research-sheets.json",
+      "bytes": 1280543,
+      "sha256": "5e5db603b3e0e36a49dac87096accebb32984ada5375fd12367f0d4cf8c6d44e"
+    },
+    {
+      "path": "CASE-3-research.xlsx",
+      "bytes": 4505336,
+      "sha256": "37aa55356c37cc9b803acd1a7f7a87ed8d8a65c572e8a364d6edba294fd01260"
+    },
+    {
+      "path": "Comparison_by_output.csv",
+      "bytes": 12058,
+      "sha256": "85813cdb4b8b0a23e75299bcae8d0b9684257b92ad34fdd1dddd66e132840aa4"
+    },
+    {
+      "path": "Comparison_summary.csv",
+      "bytes": 1113,
+      "sha256": "4eb2030b1591c0ff5e660e53aa521493319d055a030560d5c99150521647ef06"
+    },
+    {
+      "path": "Dose_forecast.csv",
+      "bytes": 16523,
+      "sha256": "cb264a201e4057f8ea91303908254c840a7df5a7f4114cc40d9e51f2fc31a863"
+    },
+    {
+      "path": "Equal_H_example.json",
+      "bytes": 271,
+      "sha256": "f7e7f8129b336528ef639c2d50fb9045f11afe0c8ffecfe655726db474759a58"
+    },
+    {
+      "path": "Failures.csv",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "HN_sensitivity.csv",
+      "bytes": 1177915,
+      "sha256": "ea1438ae99a14fc185754067d6c8bb72ceb03250988bfe63a22574f2be578d8d"
+    },
+    {
+      "path": "HN_sensitivity_summary.csv",
+      "bytes": 2870,
+      "sha256": "e88ed92cccd4c8978e85bb69aa6ffdf6bc280ec07243775beb1505c00361175e"
+    },
+    {
+      "path": "HN_totals.csv",
+      "bytes": 461060,
+      "sha256": "2944ffd339c98a07b3d5617e646c8d9a1f115b5da81826a935cc5a5a1a9ae1e0"
+    },
+    {
+      "path": "Input_guard_checks.json",
+      "bytes": 4895,
+      "sha256": "36f2dfa0f2357a2bf5f1d3aa6d4bc84bdc69b3cabe839cc360eef52351cb4a56"
+    },
+    {
+      "path": "Postrun_integrity.json",
+      "bytes": 69,
+      "sha256": "ecb69970a9a473913e601fe38a04601fad3ca9981d4a5925c2219a58f40d5dbd"
+    },
+    {
+      "path": "Prefinal_freeze.json",
+      "bytes": 9000,
+      "sha256": "50d212d6de0c79dbeb31c53ac993d8f8012f49c59d7bd6ab4b3f2c187996aac9"
+    },
+    {
+      "path": "Release_verification_report.json",
+      "bytes": 7551,
+      "sha256": "118c01a05f9a1fddea0b66d55444dd46f7dee82480139a29e630a26109301bac"
+    },
+    {
+      "path": "Release_verification_report.txt",
+      "bytes": 4821,
+      "sha256": "a4b53f3c8156ffb0d1d68fc26e04b97f16f6e5eb77747e7e3742084bf534d7b9"
+    },
+    {
+      "path": "Verification_summary.json",
+      "bytes": 5039,
+      "sha256": "5d7988c3840c456dd177c0e421863624d71d1ef100f891630258c9551d5c1f70"
+    },
+    {
+      "path": "Worked_cases.csv",
+      "bytes": 140073,
+      "sha256": "79926233522f76344ddf9169a1b47b242a8234c4a6d9ba6ce28e46fb58923e62"
+    },
+    {
+      "path": "application_forecast.jsonl",
+      "bytes": 581614,
+      "sha256": "ab33af52400d19f86b22dfbee641420aa21cd5821b3e3084fa908db25ec000f8"
+    },
+    {
+      "path": "application_hn.jsonl",
+      "bytes": 265605947,
+      "sha256": "1b0e4acee0d7fd0317ec3c2f79f4ac2437c2086d8439e14b11c61ce3b044ebbc"
+    },
+    {
+      "path": "application_pd.jsonl",
+      "bytes": 154232,
+      "sha256": "234235aac0bbf814ddf35c4aa89b66d931ecf85b49d9d46d9ce333008e494b88"
+    },
+    {
+      "path": "application_pk.jsonl",
+      "bytes": 9304415,
+      "sha256": "3b38b59800cb5f09b479e621b9c3678dae546d4b0f76aae79ae36009b2a096dd"
+    },
+    {
+      "path": "application_records.jsonl",
+      "bytes": 410936,
+      "sha256": "1d6c3f0ba1d958ad93b78c6d9c72e9f81eaabe98f50028473f2477794ddcc3ab"
+    },
+    {
+      "path": "application_rocuronium.jsonl",
+      "bytes": 5514520,
+      "sha256": "4cef64f7534b10f6e7e322558ca7be142b84d21f65daf467a2caa90a7986e501"
+    },
+    {
+      "path": "application_versions.json",
+      "bytes": 246,
+      "sha256": "d14ad77b75def61a5fe6bafd459ad7a4177ef2c2ad759f96daf8b805c5f6cd9b"
+    },
+    {
+      "path": "application_worked.jsonl",
+      "bytes": 33468377,
+      "sha256": "f78884dd150b45c176f7b2959b5471d3474204e9cf7ecb4a0757e4b4f42d8529"
+    },
+    {
+      "path": "execution.json",
+      "bytes": 1626,
+      "sha256": "99364be0ef6b6cf7aed4a8a3e2fba5842f38374c930374b087bcfa45b338212f"
+    },
+    {
+      "path": "figures/HN_sensitivity.pdf",
+      "bytes": 20504,
+      "sha256": "23770aa5b0ef0ee589dcb3769a0058d7792439cf5d5b55ebafe924f5a9351ddb"
+    },
+    {
+      "path": "figures/HN_sensitivity.png",
+      "bytes": 241136,
+      "sha256": "c8c9d730fcc9ffb0590358de9a18700e5210925c6a965d5587eea513bc505dea"
+    },
+    {
+      "path": "figures/HN_sensitivity.tiff",
+      "bytes": 444232,
+      "sha256": "610e3b6c95d283153fcc2b01b2e6e3b98f4d66ce3fb1981a02a61d6478f90f67"
+    },
+    {
+      "path": "figures/Simulated_dose.pdf",
+      "bytes": 17730,
+      "sha256": "51fef93e7c746cf7d51f94e57be6e0003426a30be15d00dca75ecab4887f5b44"
+    },
+    {
+      "path": "figures/Simulated_dose.png",
+      "bytes": 156210,
+      "sha256": "9f8129a62533a81eacaeb098f41242cf9c1d0523f392d1ae01d93424bb1144a8"
+    },
+    {
+      "path": "figures/Simulated_dose.tiff",
+      "bytes": 230078,
+      "sha256": "dca4d2cca943205ab0a03409922cc47458c013607696c7b564a3da7201bd0f3a"
+    },
+    {
+      "path": "figures/Worked_case_1.pdf",
+      "bytes": 23215,
+      "sha256": "c8765400da1706206b57aef3a077a14ccc60f86f2e1399403ebd062fe05025f8"
+    },
+    {
+      "path": "figures/Worked_case_1.png",
+      "bytes": 220526,
+      "sha256": "1dd485f05cef7e1c26f08f029b0ebab12626eff8a53228ab79797a8f386ed7e1"
+    },
+    {
+      "path": "figures/Worked_case_1.tiff",
+      "bytes": 397420,
+      "sha256": "738015720ca259bcb6847d12e6febbb1bc56e32729be8d1bc72d585de4c81410"
+    },
+    {
+      "path": "figures/Worked_case_2.pdf",
+      "bytes": 24009,
+      "sha256": "27733e6ccd973ac793dd8b3e803de280abade03b1a9d120102bbc68ffb1f9b46"
+    },
+    {
+      "path": "figures/Worked_case_2.png",
+      "bytes": 220835,
+      "sha256": "ff25685ea1e9003ac25725910df1645573a195ddce48de3d90038e16aa4793c9"
+    },
+    {
+      "path": "figures/Worked_case_2.tiff",
+      "bytes": 411514,
+      "sha256": "bbed803a48d7550fddb1cb6a120b9d74233ca763edcc4883fcad988e7d193484"
+    },
+    {
+      "path": "figures/Worked_case_3.pdf",
+      "bytes": 24956,
+      "sha256": "93ee11e82718f692b36d7b673b34481b7d6100d0f7aef28fd791fddfb30c46b0"
+    },
+    {
+      "path": "figures/Worked_case_3.png",
+      "bytes": 210054,
+      "sha256": "09b2671a50992267c39baa3a451b8842c00ad8219179e2a9d9cd999bb98a8eed"
+    },
+    {
+      "path": "figures/Worked_case_3.tiff",
+      "bytes": 392072,
+      "sha256": "91f8ce55bf67d70d371d689bb2c7acc3e51f450a3eb6192f4464f30d863c439c"
+    },
+    {
+      "path": "figures/captions.json",
+      "bytes": 2183,
+      "sha256": "cc796e838fae5353432fb7d02be7e05a87928710d8ea0d237798be4efd74194f"
+    },
+    {
+      "path": "inputs.json",
+      "bytes": 2492510,
+      "sha256": "7ef0eebbd25fc5124e29b55b8d727863ac11e78a21986dd0a71767cf71931de0"
+    }
+  ],
+  "note": "Manifest lists all generated evidence except itself. Prefinal_freeze.json now identifies the corrected-source verification run; its entry was updated accordingly. Other entries retain the original evidence inventory. The separately described full evidence archive retains its original Prefinal_freeze.json and manifest."
+}

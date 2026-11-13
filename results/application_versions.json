@@ -1,0 +1,10 @@
+{
+  "package": "1.0.0",
+  "release": "som-4.3.0",
+  "pk": "som-pk-2.2.0",
+  "ce": "som-ce-2.2.0",
+  "hn": "som-hn-3.0.0",
+  "publishedPD": "som-published-pd-1.0.0",
+  "node": "v24.22.1",
+  "repairRevision": "submission-metadata-repair-20261019"
+}

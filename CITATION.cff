@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite this software release when using it in research."
+type: software
+title: "State of Mind Research Edition"
+version: 1.0.0
+date-released: 2026-11-12
+license: MIT
+authors:
+  - family-names: Hakami
+    given-names: Mohammed
+    affiliation: "King Faisal Specialist Hospital & Research Centre, Riyadh, Saudi Arabia"
+  - family-names: Alqahtani
+    given-names: Meshari
+    affiliation: "King Faisal Specialist Hospital & Research Centre, Riyadh, Saudi Arabia"
+contact:
+  - family-names: Hakami
+    given-names: Mohammed
+    email: mohdhakami4@gmail.com
+abstract: >-
+  Browser-based multidrug anesthesia simulation, exploratory H/N scores,
+  event-time research snapshots and local Excel/JSON export.
+keywords:
+  - anesthesia
+  - pharmacokinetics
+  - simulation
+  - research software

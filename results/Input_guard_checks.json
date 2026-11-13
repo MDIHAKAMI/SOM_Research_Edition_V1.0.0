@@ -1,0 +1,249 @@
+{
+  "scope": "Volatile MAC input validity; no clinical data",
+  "cases": 20,
+  "checks": 60,
+  "passed": 60,
+  "failed": 0,
+  "results": [
+    {
+      "id": "sevoflurane/null/exposure",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/null/contribution",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/null/N-total",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/false/exposure",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/false/contribution",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/false/N-total",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/true/exposure",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/true/contribution",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/true/N-total",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/numeric-string/exposure",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/numeric-string/contribution",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/numeric-string/N-total",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/empty-string/exposure",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/empty-string/contribution",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/empty-string/N-total",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/undefined/exposure",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/undefined/contribution",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/undefined/N-total",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/NaN/exposure",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/NaN/contribution",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/NaN/N-total",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/infinity/exposure",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/infinity/contribution",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/infinity/N-total",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/negative/exposure",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/negative/contribution",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/negative/N-total",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/valid-zero/exposure",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/valid-zero/contribution",
+      "passed": true
+    },
+    {
+      "id": "sevoflurane/valid-zero/N-total",
+      "passed": true
+    },
+    {
+      "id": "desflurane/null/exposure",
+      "passed": true
+    },
+    {
+      "id": "desflurane/null/contribution",
+      "passed": true
+    },
+    {
+      "id": "desflurane/null/N-total",
+      "passed": true
+    },
+    {
+      "id": "desflurane/false/exposure",
+      "passed": true
+    },
+    {
+      "id": "desflurane/false/contribution",
+      "passed": true
+    },
+    {
+      "id": "desflurane/false/N-total",
+      "passed": true
+    },
+    {
+      "id": "desflurane/true/exposure",
+      "passed": true
+    },
+    {
+      "id": "desflurane/true/contribution",
+      "passed": true
+    },
+    {
+      "id": "desflurane/true/N-total",
+      "passed": true
+    },
+    {
+      "id": "desflurane/numeric-string/exposure",
+      "passed": true
+    },
+    {
+      "id": "desflurane/numeric-string/contribution",
+      "passed": true
+    },
+    {
+      "id": "desflurane/numeric-string/N-total",
+      "passed": true
+    },
+    {
+      "id": "desflurane/empty-string/exposure",
+      "passed": true
+    },
+    {
+      "id": "desflurane/empty-string/contribution",
+      "passed": true
+    },
+    {
+      "id": "desflurane/empty-string/N-total",
+      "passed": true
+    },
+    {
+      "id": "desflurane/undefined/exposure",
+      "passed": true
+    },
+    {
+      "id": "desflurane/undefined/contribution",
+      "passed": true
+    },
+    {
+      "id": "desflurane/undefined/N-total",
+      "passed": true
+    },
+    {
+      "id": "desflurane/NaN/exposure",
+      "passed": true
+    },
+    {
+      "id": "desflurane/NaN/contribution",
+      "passed": true
+    },
+    {
+      "id": "desflurane/NaN/N-total",
+      "passed": true
+    },
+    {
+      "id": "desflurane/infinity/exposure",
+      "passed": true
+    },
+    {
+      "id": "desflurane/infinity/contribution",
+      "passed": true
+    },
+    {
+      "id": "desflurane/infinity/N-total",
+      "passed": true
+    },
+    {
+      "id": "desflurane/negative/exposure",
+      "passed": true
+    },
+    {
+      "id": "desflurane/negative/contribution",
+      "passed": true
+    },
+    {
+      "id": "desflurane/negative/N-total",
+      "passed": true
+    },
+    {
+      "id": "desflurane/valid-zero/exposure",
+      "passed": true
+    },
+    {
+      "id": "desflurane/valid-zero/contribution",
+      "passed": true
+    },
+    {
+      "id": "desflurane/valid-zero/N-total",
+      "passed": true
+    }
+  ]
+}

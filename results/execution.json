@@ -1,0 +1,68 @@
+{
+  "updated_utc": "2026-11-12T16:48:39.306235+00:00",
+  "command_format": "Portable representations of executed commands; host executable and directory paths are normalized.",
+  "path_symbols": {
+    "<SOURCE>": "Application source directory",
+    "<OUTPUT>": "New verification result directory"
+  },
+  "steps": [
+    {
+      "step": "Compile the calculation and export modules",
+      "command": [
+        "node",
+        "node_modules/typescript/bin/tsc",
+        "-p",
+        "verification/tsconfig.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "step": "Prepare deterministic synthetic inputs",
+      "command": [
+        "python3",
+        "verification/prepare_inputs.py",
+        "<OUTPUT>"
+      ],
+      "exit_code": 0
+    },
+    {
+      "step": "Execute released application calculations",
+      "command": [
+        "node",
+        "verification/run_application.cjs",
+        "<SOURCE>",
+        "<OUTPUT>"
+      ],
+      "exit_code": 0
+    },
+    {
+      "step": "Check invalid volatile inputs",
+      "command": [
+        "node",
+        "verification/check_input_guards.cjs",
+        "<SOURCE>",
+        "<OUTPUT>"
+      ],
+      "exit_code": 0
+    },
+    {
+      "step": "Compare with separately implemented reference",
+      "command": [
+        "python3",
+        "verification/analyze.py",
+        "<OUTPUT>"
+      ],
+      "exit_code": 0
+    },
+    {
+      "step": "Calculate structural sensitivity and figures",
+      "command": [
+        "python3",
+        "verification/sensitivity_figures.py",
+        "<OUTPUT>"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "clinical_observations_used": false
+}

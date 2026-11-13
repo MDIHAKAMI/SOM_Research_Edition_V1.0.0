@@ -1,0 +1,90 @@
+/* Copyright (c) 2026 Mohammed Hakami. SPDX-License-Identifier: MIT */
+:root {
+  --background: #f5f7fa;
+  --foreground: #19384b;
+  --popover: #fff;
+  --primary: #226575;
+  color-scheme: light;
+}
+body {
+  background: #f5f7fa;
+  color: #19384b;
+}
+a {
+  color: #216c80;
+}
+button {
+  background: #fff;
+  color: #19384b;
+  border-color: #cad8e1;
+}
+button:hover {
+  background: #edf3f6;
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline-color: #237787;
+}
+[data-slot='select-content'],
+[data-slot='select-popup'],
+.modal {
+  background: #fff;
+  color: #19384b;
+  border-color: #d4dfe7;
+}
+.modal input,
+.modal select,
+.modal textarea,
+.modal .choice {
+  background: #fff;
+  color: #19384b;
+  border-color: #cad8e1;
+}
+.modal h1,
+.modal h2,
+.modal h3,
+.modal label,
+.modal strong,
+.modal summary {
+  color: #19384b;
+}
+.modal p,
+.modal small {
+  color: #526b80;
+}
+.modal pre {
+  background: #f4f7fa;
+  color: #19384b;
+}
+[data-slot='select-item'][data-highlighted] {
+  background: #eaf2f5;
+  color: #18394b;
+}
+[data-slot='select-content'] .lucide,
+[data-slot='select-trigger'] .lucide {
+  display: none;
+}
+[data-slot='tabs-trigger'][data-active] {
+  color: #19384b;
+  background: #e7f0f3;
+}
+.primary {
+  background: #226575;
+  color: #fff;
+  border-color: #226575;
+}
+.primary:hover {
+  background: #194f5c;
+}
+
+:root {
+  --color-muted: #eef3f6;
+  --color-muted-foreground: #526b80;
+  --color-border: #d4dfe7;
+  --color-input: #cad8e1;
+  --color-ring: #237787;
+  --color-accent: #eaf2f5;
+  --color-accent-foreground: #19384b;
+  --color-primary-foreground: #fff;
+}

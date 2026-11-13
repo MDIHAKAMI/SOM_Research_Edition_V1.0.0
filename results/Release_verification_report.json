@@ -1,0 +1,231 @@
+{
+  "status": "PASS: all declared current-release calculation/export checks and separate volatile-input guards passed",
+  "edition": "SOM Research Edition 1.0.0",
+  "executed_components": {
+    "package": "1.0.0",
+    "release": "som-4.3.0",
+    "pk": "som-pk-2.2.0",
+    "ce": "som-ce-2.2.0",
+    "hn": "som-hn-3.0.0",
+    "publishedPD": "som-published-pd-1.0.0",
+    "node": "v24.22.1",
+    "repairRevision": "submission-metadata-repair-20261019"
+  },
+  "protocol": "SOM-RESEARCH-1.0-VERIFICATION",
+  "total_scalar_or_category_checks": 484781,
+  "numeric_checks": 306839,
+  "categorical_checks": 177942,
+  "failed": 0,
+  "scenario_counts": {
+    "histories": 9,
+    "snapshots": 1484,
+    "forecasts": 33,
+    "worked": 3
+  },
+  "groups": {
+    "Dose forecast": {
+      "checks": 8184,
+      "numeric_checks": 6072,
+      "categorical_checks": 2112,
+      "passed": 8184,
+      "failed": 0,
+      "maximum_absolute_error": 2.6545876607997343e-11
+    },
+    "Forecast isolation": {
+      "checks": 33,
+      "numeric_checks": 0,
+      "categorical_checks": 33,
+      "passed": 33,
+      "failed": 0,
+      "maximum_absolute_error": null
+    },
+    "H/N availability": {
+      "checks": 8904,
+      "numeric_checks": 0,
+      "categorical_checks": 8904,
+      "passed": 8904,
+      "failed": 0,
+      "maximum_absolute_error": null
+    },
+    "H/N contributions": {
+      "checks": 115752,
+      "numeric_checks": 115722,
+      "categorical_checks": 30,
+      "passed": 115752,
+      "failed": 0,
+      "maximum_absolute_error": 8.881784197001252e-16
+    },
+    "H/N known subtotal": {
+      "checks": 8904,
+      "numeric_checks": 8904,
+      "categorical_checks": 0,
+      "passed": 8904,
+      "failed": 0,
+      "maximum_absolute_error": 5.329070518200751e-15
+    },
+    "H/N monotonicity": {
+      "checks": 7800,
+      "numeric_checks": 0,
+      "categorical_checks": 7800,
+      "passed": 7800,
+      "failed": 0,
+      "maximum_absolute_error": null
+    },
+    "H/N totals": {
+      "checks": 8904,
+      "numeric_checks": 8883,
+      "categorical_checks": 21,
+      "passed": 8904,
+      "failed": 0,
+      "maximum_absolute_error": 5.329070518200751e-15
+    },
+    "Mass conservation": {
+      "checks": 23958,
+      "numeric_checks": 23958,
+      "categorical_checks": 0,
+      "passed": 23958,
+      "failed": 0,
+      "maximum_absolute_error": 3.3185642678290606e-08
+    },
+    "Opioid split invariance": {
+      "checks": 63,
+      "numeric_checks": 63,
+      "categorical_checks": 0,
+      "passed": 63,
+      "failed": 0,
+      "maximum_absolute_error": 3.3306690738754696e-16
+    },
+    "PK parameters": {
+      "checks": 693,
+      "numeric_checks": 639,
+      "categorical_checks": 54,
+      "passed": 693,
+      "failed": 0,
+      "maximum_absolute_error": 0.0
+    },
+    "PK trajectory": {
+      "checks": 67518,
+      "numeric_checks": 50094,
+      "categorical_checks": 17424,
+      "passed": 67518,
+      "failed": 0,
+      "maximum_absolute_error": 7.169376203819411e-11
+    },
+    "Published PD": {
+      "checks": 2205,
+      "numeric_checks": 2205,
+      "categorical_checks": 0,
+      "passed": 2205,
+      "failed": 0,
+      "maximum_absolute_error": 2.220446049250313e-16
+    },
+    "Record correction": {
+      "checks": 15,
+      "numeric_checks": 0,
+      "categorical_checks": 15,
+      "passed": 15,
+      "failed": 0,
+      "maximum_absolute_error": null
+    },
+    "Research H/N snapshot": {
+      "checks": 6,
+      "numeric_checks": 6,
+      "categorical_checks": 0,
+      "passed": 6,
+      "failed": 0,
+      "maximum_absolute_error": 1.687538997430238e-14
+    },
+    "Research concentrations": {
+      "checks": 186,
+      "numeric_checks": 138,
+      "categorical_checks": 48,
+      "passed": 186,
+      "failed": 0,
+      "maximum_absolute_error": 5.087485988042317e-12
+    },
+    "Research snapshot serialization": {
+      "checks": 6,
+      "numeric_checks": 0,
+      "categorical_checks": 6,
+      "passed": 6,
+      "failed": 0,
+      "maximum_absolute_error": null
+    },
+    "Rocuronium PD": {
+      "checks": 9696,
+      "numeric_checks": 9696,
+      "categorical_checks": 0,
+      "passed": 9696,
+      "failed": 0,
+      "maximum_absolute_error": 2.220446049250313e-16
+    },
+    "State corrections": {
+      "checks": 2178,
+      "numeric_checks": 2178,
+      "categorical_checks": 0,
+      "passed": 2178,
+      "failed": 0,
+      "maximum_absolute_error": 0
+    },
+    "Worked-case H/N": {
+      "checks": 1086,
+      "numeric_checks": 1086,
+      "categorical_checks": 0,
+      "passed": 1086,
+      "failed": 0,
+      "maximum_absolute_error": 3.552713678800501e-15
+    },
+    "XLSX roundtrip": {
+      "checks": 218690,
+      "numeric_checks": 77195,
+      "categorical_checks": 141495,
+      "passed": 218690,
+      "failed": 0,
+      "maximum_absolute_error": 0
+    }
+  },
+  "separate_input_guard_checks": {
+    "scope": "Volatile MAC input validity; no clinical data",
+    "cases": 20,
+    "checks": 60,
+    "passed": 60,
+    "failed": 0
+  },
+  "structural_sensitivity": {
+    "variants": 17,
+    "case_variant_summaries": 51,
+    "time_variant_rows": 9231,
+    "clinical_inference": false
+  },
+  "source_integrity": {
+    "changed_files": [],
+    "unchanged": true,
+    "checked_files": 81
+  },
+  "tolerances": {
+    "PK_and_forecast": "absolute error <= 1e-9 + 1e-10 * abs(reference), in each native output unit",
+    "H_N": "absolute error <= 1e-12 + 1e-12 * abs(reference), index units",
+    "published_probability_and_TOFR": "absolute error <= 1e-12",
+    "mass_balance": "absolute residual <= 1e-7, native engine amount unit",
+    "categories_nulls": "exact match",
+    "XLSX_cells": "1e-12 + 1e-12 * abs(reference) for numbers, exact typed values otherwise; blank strings normalized to blank cells"
+  },
+  "reference_method": "Separate transcription of declared equations in Python; scipy.linalg.expm event-to-event PK propagation; no application imports. Shared model assumptions and development assistance mean this is not independent expert review.",
+  "guard_fix": "Restored archived valid(s.cp[drug]) condition before volatile MAC division. Previously JS coercion could turn null or false into zero and numeric strings into numerical credits in N. H/ET handling was already guarded. No coefficients or valid-input equations changed.",
+  "limits": [
+    "Synthetic cases, output samples and scalar checks are not independent patients or clinical validation.",
+    "Does not establish true patient concentrations, responsiveness, awareness, clinical equivalence, safe dosing, educational benefit or improvement over existing interaction models.",
+    "Does not test browser UI/local-storage persistence; those need the separate workflow tests.",
+    "Historical hosted API/SQLite tests do not validate the new standalone local controller.",
+    "No model fitting or patient-data analysis was performed.",
+    "Held volatile inputs are not uptake, washout or brain equilibration models.",
+    "The earlier broad archives contained declared diagnostic exceptions; an all-historical-tests-passed statement would be inaccurate."
+  ],
+  "historical_comparison": {
+    "old_declared_checks": 484763,
+    "new_declared_checks": 484781,
+    "difference": 18,
+    "reason": "18 additional categorical workbook metadata cells; numerical count unchanged. The restored volatile guard has separate invalid-input checks."
+  },
+  "reproduction_command": "npm ci; python -m pip install -r verification/requirements.txt; python verification/reproduce.py --output /absolute/path/to/new-results"
+}

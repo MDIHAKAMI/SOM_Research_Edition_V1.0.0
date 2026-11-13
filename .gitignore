@@ -1,0 +1,8 @@
+node_modules/
+work/
+coverage/
+.env*
+*.pem
+.DS_Store
+*.tsbuildinfo
+*.log
